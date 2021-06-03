@@ -40,7 +40,7 @@ $ git add myfolder/ #특정 폴더
 ```
 
 * working directory 상태의 파일을 staging area 상태로 변경 (첫번쨰 통 -> 두번째 통)
-* 커밋을 위한 파일들을 추가하는 명령어
+* 커밋을 위한 파일들을 추가하는 명령어![1](md-images/1.jpg)
 
 ### 예시
 
@@ -89,7 +89,7 @@ $ git commit -m 'Add a.txt'
 * 커밋 메세지는 현재 변경사항들을 잘 나타낼 수 있도록 작성하자.
 * 커밋은 고유한 아이디인 해시값을 가진다.
   * SHA-1 알고리즘에 의하여 생성.
-* 커밋 목록은 git log 명령어를 통하여 확인할 수 있다.
+* 커밋 목록은 git log 명령어를 통하여 확인할 수 있다.![1_LI (2)](md-images/1_LI%20(2)-1622709863479.jpg)
 
 ## 3. log
 
@@ -113,7 +113,13 @@ $ git log --oneline -1 #1개를 한줄로
 
 * working 
 
+```bash
+$ git status
+On branch master
+nothing to commit, working tree clean
+```
 
+![Inkedblank2 (1)_LI](md-images/Inkedblank2%20(1)_LI.jpg)
 
 
 
